@@ -1,0 +1,36 @@
+name: Bug Report
+description: Report something broken in SmechOS (boot, install, drivers, packages, etc.)
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: deliverable
+    attributes:
+      label: Which SmechOS deliverable?
+      options:
+        - smechos-live-systemd.iso
+        - smechos-installer-tui.iso
+        - smechos-installer-minimal-netinst.iso
+        - Installed system (post-install)
+        - spk package manager
+        - Other / not sure
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: What did you expect, and what actually happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Real hardware or VM (which hypervisor)? BIOS or UEFI? CPU vendor?
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs/output
+      description: Paste any boot messages, error output, or screenshots.

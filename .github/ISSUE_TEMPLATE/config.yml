@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: SmechOS build tooling / source
+    url: https://github.com/Smech-Labs/SmechDeploy
+    about: This repo is for issues only -- code and build scripts live here.

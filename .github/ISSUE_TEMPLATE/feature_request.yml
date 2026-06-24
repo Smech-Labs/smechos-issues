@@ -1,0 +1,15 @@
+name: Feature Request
+description: Suggest something for SmechOS to add or change
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What do you want to see?
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why does this matter?
+      description: What problem does this solve, or what does it make possible?
