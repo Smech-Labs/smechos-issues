@@ -7,9 +7,9 @@ body:
     attributes:
       label: Which SmechOS deliverable?
       options:
-        - smechos-live-systemd.iso
-        - smechos-installer-tui.iso
-        - smechos-installer-minimal-netinst.iso
+        - SmechOS-1.0-RC1.iso
+        - smechos-installer-tui.iso (EoL)
+        - smechos-installer-minimal-netinst.iso (EoL)
         - Installed system (post-install)
         - spk package manager
         - Other / not sure
